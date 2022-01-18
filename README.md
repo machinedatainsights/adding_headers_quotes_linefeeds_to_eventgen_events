@@ -24,7 +24,7 @@ The other problem with these Linux/Unix events is that their timestamps (as they
 1. Use the mode = sample option in eventgen.con, which blasts all of the events in your sample file out at once; Splunk will give them an index-time timestamp - but they be all have the same timestamp per generation interval. Example:  
 
 ```text
-[linux_os_events_10000.csv]
+[linux_unix_addon_events_10000_formatted.csv]
 disabled = 0
 mode = sample
 timeField = _time
@@ -37,7 +37,7 @@ latest = now
 2. My preference is to use mode = replay and the timeField = ```_time``` option, which requires you to include the ```_time``` field in the Splunk export:
 
 ```text
-[linux_os_events_10000.csv]
+[linux_unix_addon_events_10000_formatted.csv]
 disabled = 0
 mode = replay
 timeField = _time
