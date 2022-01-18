@@ -3,6 +3,12 @@
 James H Baxter  
 Jan 17 2022  
 
+Jupyter Notebook:
+https://github.com/machinedatainsights/adding_headers_quotes_linefeeds_to_eventgen_events/blob/main/Add%20Headers%20-%20Quotes%20-%20Line%20Feeds%20to%20Eventgen%20Events.ipynb
+
+PDF:
+https://github.com/machinedatainsights/adding_headers_quotes_linefeeds_to_eventgen_events/blob/main/Adding%20Headers-Quotes-Line%20Feeds%20to%20Eventgen%20Events.pdf
+
 ## Introduction
 
 This code was developed to modify events which were originally ingested via the Splunk Add-on for Linux and Unix and have been exported from a Splunk search so that they can be used with Splunk Eventgen to create artifical events of this type.  
